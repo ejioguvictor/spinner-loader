@@ -18,6 +18,7 @@ body {
   height: 200px;
   background-color: #4caf50;
   border-radius: 50%;
+  animation: spinner 1s linear infinite;
 }
 
 .loader::before {
@@ -27,7 +28,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background-color: #00c853;
+  background: linear-gradient(to top, transparent, #a1ccb3);
   border-top-left-radius: 1000px;
   border-bottom-left-radius: 1000px;
 }
@@ -51,4 +52,13 @@ body {
   bottom: 20px;
   background-color: #004d40;
   border-radius: 50%;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
