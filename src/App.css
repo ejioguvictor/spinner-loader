@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #004d40;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #4caf50;
+}
