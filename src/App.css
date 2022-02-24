@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .loader {
@@ -16,4 +17,12 @@ body {
   width: 200px;
   height: 200px;
   background-color: #4caf50;
+  border-radius: 50%;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
 }
