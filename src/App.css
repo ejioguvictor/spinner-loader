@@ -36,4 +36,10 @@ body {
   position: absolute;
   top: 0;
   left: 45%;
+  width: 20px;
+  height: 20px;
+  background-color: #e8f5e9;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #e8f5e9, 0 0 20px #e8f5e9, 0 0 30px #e8f5e9,
+    0 0 40px #e8f5e9, 0 0 50px #e8f5e9;
 }
